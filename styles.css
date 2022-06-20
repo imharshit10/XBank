@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+/*
+
+
+FIRST DIV + NAVBAR
+
+
+*/
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    width:  125px;
+}
+
+.vid {
+    position: absolute;
+    margin-top: 100px;
+    width: 73%;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+
+.nav-links ul li a:hover{
+    padding: 5% 10% ;
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+}
+
+
+
+
+/*
+
+
+SECOND DIV
+
+
+*/
+
+.second {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.second h1 {
+    font-size: 40px;
+}
+
+
+
+
+
+/*
+
+
+THIRD DIV
+
+
+*/
+
+.third {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+
+.third h1 {
+    font-size: 40px;
+    color: white;
+}
+
+
+.row {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.col {
+    padding: 5%;
+    flex-basis: 45%;
+    background-color: lightgray;
+    border-radius: 1%;
+    box-sizing: border-box;
+}
+
+.feature-img{
+    margin: 10px;
+    width: 250px;
+}
+
+
+
+/*
+
+
+FOURTH DIV
+
+
+*/
+
+
+
+.fourth{
+    padding: 100px 100px 50px 100px;
+    text-align: center;
+}
+
+.fourth h1{
+    font-size: 80px;
+}
+
+.fourth p{
+    font-size: 20px;
+}
+
+.help {
+    margin-right: 40%;
+}
+
+.save {
+    margin-left: 40%;
+}
+
+
+
+
+/*
+
+
+FOOTER
+
+
+*/
+
+
+
+
+.footer{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.contact{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 5px;
+}
+
+.gmail {
+    width: 20px;
+}
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border-radius:8px;
+	border:5px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:13px;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #000000;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+/*
+
+
+RESPONSIVE
+
+
+*/
+
+
+
+
+
+@media(max-width: 700px){
+    .nav-links ul li{
+        display: block;
+        margin: 5%;
+    }
+    
+    .nav-links {
+        position: absolute;
+        background: rgb(65, 65, 65);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+    .nav-links ul li a:hover{
+        padding: 5% 10% ;
+        background-color: black;
+        color: white;
+        border-radius: 5%;
+    }
+
+}
